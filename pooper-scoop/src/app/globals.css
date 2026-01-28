@@ -1,0 +1,450 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+/* ---break---*/
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --textcolor-white: #ffffff;
+  --textcolor-black: #000000;
+  --brandcolor-darkgreen: #3e6c02;
+  --brandcolor-midgreen: #487f04;
+  --brandcolor-lightgreen: #74a32b;
+  --brandcolor-red: #d11d1d;
+  --brandcolor-darkblue: #002d49;
+  --brandcolor-lightblue: #02418a;
+  --brandcolor-darkyellow: #ff9201;
+  --brandcolor-lightyellow: #ffb600;
+  --radius: 30px;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+
+  --view-width: 1290px;
+  --transition: all 0.3s ease-in-out;
+  --max-width-headerpart: 800px;
+  --page-gap: 100px;
+}
+
+
+
+.transition {
+  transition: all 0.3s ease;
+}
+
+/* green gradient 
+.bg-custom-gradient {
+  background: linear-gradient(90deg, #3e6c02 0%, #487f04 40%, #74a32b 100%);
+  border-radius: 30px;
+}*/
+
+/* filepath: /Users/tokki/Documents/Files/repositories/doodie-duty/doodie-duty/src/app/globals.css */
+.HERO.bg-custom-gradient.tiled-background-image {
+  position: relative;
+  background-image: linear-gradient(90deg,
+      #3e6c02 0%,
+      #487f04 40%,
+      #74a32b 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+.bg-custom-gradient {
+  position: relative;
+  background-image: linear-gradient(90deg,
+      #3e6c02 0%,
+      #487f04 40%,
+      #74a32b 100%);
+  overflow: hidden;
+
+}
+
+
+.HERO.bg-custom-gradient.tiled-background-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: url("/images/home-page/hero/pattern.svg");
+  background-repeat: repeat;
+  background-position: 0 0;
+  background-size: auto;
+  opacity: 0.15;
+  pointer-events: none;
+  border-radius: 30px;
+}
+
+.HERO.bg-custom-gradient.tiled-background-image>* {
+  position: relative;
+  z-index: 1;
+}
+
+.h1 {
+  font-family: "Lilita One", sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 91%;
+  color: var(--textcolor-white);
+  text-wrap: balance;
+}
+
+.h2 {
+  font-family: "Lilita One", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 100%;
+  color: var(--textcolor-black);
+  text-wrap: balance;
+}
+
+.h3 {
+  font-family: "Lilita One", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 110%;
+  color: var(--textcolor-black);
+  text-wrap: balance;
+}
+
+.h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 120%;
+  color: var(--textcolor-black);
+  text-wrap: balance;
+}
+
+.h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 130%;
+  color: var(--textcolor-black);
+  text-wrap: balance;
+}
+
+.p {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 16px;
+  font-weight: 400 !important;
+  line-height: 150% !important;
+  letter-spacing: 1px !important;
+  color: var(--textcolor-black);
+}
+
+.location-text-two {
+  text-align: left;
+  font-family: "montserrat";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 130%;
+  color: var(--textcolor-black);
+  text-decoration: underline;
+}
+
+.button-text {
+  font-family: "Lilita One", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 1px;
+  color: var(--textcolor-black);
+}
+
+.number-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  color: var(--textcolor-black);
+}
+
+.subheader {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  color: var(--brandcolor-lightgreen);
+}
+
+.numbers-showcase-text {
+  font-family: "montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 91%;
+  color: var(--textcolor-black);
+}
+
+.faq-font {
+  font-family: "Lilita One", sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 110%;
+  color: var(--textcolor-black);
+}
+
+.refer-a-friend-hero-text {
+  font-family: "Lilita One", sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 91%;
+  color: var(--textcolor-black);
+}
+
+.how-it-works-text {
+  font-family: "montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  color: var(--textcolor-black);
+  white-space: nowrap;
+}
+
+
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+  .h1 {
+    font-size: 80px;
+  }
+}
+
+.grass-tile {
+  background-image: url("/images/home-page/removalcompany/grass.svg");
+  background-repeat: repeat;
+}
+
+/* Removed invalid .text-[var(...)] custom rules. Use Tailwind utility classes directly in JSX. */
+
+.location-text {
+  text-align: center;
+  font-family: "montserrat";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 120%;
+  color: var(--textcolor-black);
+  text-decoration: underline;
+}
+
+.number-text-andcounting {
+  text-align: center;
+  font-family: "montserrat";
+  font-size: 51px;
+  font-weight: medium;
+  line-height: 100%;
+  color: var(--textcolor-black);
+}
+
+.tag-text-andcounting {
+  text-align: center;
+  font-family: "montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 100%;
+  color: var(--textcolor-black);
+}
+
+.tag-text-story {
+  font-family: "montserrat";
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 100%;
+  color: var(--textcolor-black);
+  text-transform: uppercase;
+}
+
+.disclaimer-text {
+  font-family: "montserrat";
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 130%;
+  color: var(--textcolor-black);
+}
+
+/* ---break---*/
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+/* ---break---*/
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.922 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.556 0 0);
+}
+
+/* ---break---*/
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@keyframes logo-bounce {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes logo-bounce-out {
+  0% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.logo-hover {
+  display: block;
+  animation: logo-bounce-out 200ms ease-out forwards;
+}
+
+.logo-hover:hover {
+  animation: logo-bounce 150ms ease-out forwards;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .h1 {
+    font-size: 60px;
+  }
+
+  .h2 {
+    font-size: 40px;
+  }
+
+  .h3 {
+    font-size: 36px;
+  }
+
+  .h4 {
+    font-size: 22px;
+  }
+
+  .h5 {
+    font-size: 20px;
+  }
+
+  .p {
+    font-size: 16px;
+  }
+
+  .location-text {
+    font-size: 20px;
+  }
+
+  .faq-font {
+    font-size: 28px;
+  }
+
+  .refer-a-friend-hero-text {
+    font-size: 46px;
+  }
+
+  .location-text-two {
+    font-size: 18px;
+  }
+
+}

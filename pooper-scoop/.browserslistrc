@@ -1,0 +1,14 @@
+# Browsers that we support
+
+# Modern browsers (excludes IE and old browsers that need polyfills)
+> 0.5%
+last 2 versions
+not dead
+not IE 11
+not op_mini all
+
+# Explicitly target modern features
+Chrome >= 90
+Firefox >= 88
+Safari >= 14
+Edge >= 90

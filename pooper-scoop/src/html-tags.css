@@ -1,0 +1,24 @@
+H1 {
+  text-align: center;
+  font-family: "Lilita One";
+  font-size: 100px;
+  font-weight: regular;
+  line-height: 100%;
+  color: var(--textcolor-white);
+}
+H2 {
+  text-align: center;
+  font-family: "Lilita One";
+  font-size: 60px;
+  font-weight: regular;
+  line-height: 100%;
+  color: var(--textcolor-black);
+}
+P {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: regular;
+  line-height: 130%;
+  color: var(--textcolor-black);
+}

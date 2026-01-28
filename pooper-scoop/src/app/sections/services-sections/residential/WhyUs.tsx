@@ -1,0 +1,187 @@
+import React from "react";
+import ReusableWhyChoose from "@/components/RWhyChoose";
+import { GrassBG } from "../../../constants";
+
+// Vetted Employees Icon
+const VettedEmployeesIcon = () => (
+  <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M26.8982 60.2941C21.312 59.3787 16.1045 56.8838 11.8906 53.104C7.67666 49.3243 4.63239 44.4176 3.11729 38.9634C1.60218 33.5093 1.67952 27.7354 3.34016 22.3238C5.00081 16.9122 8.17541 12.0888 12.489 8.42328C16.8027 4.75776 22.0752 2.40322 27.6839 1.63771C33.2926 0.872199 39.0032 1.7277 44.1413 4.10318C49.2795 6.47866 53.6305 10.2749 56.6807 15.0436C59.7308 19.8122 61.3526 25.3542 61.3545 31.0149" stroke="black" strokeWidth="2.73" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M47.3748 68.5459C35.8178 70.3787 36.281 40.1029 47.3748 61.68C51.8129 58.1428 60.7682 40.81 66.332 43.0131C73.4227 45.795 54.8996 66.6804 47.3748 68.5459Z" fill="white" stroke="black" strokeWidth="2.73" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M36.7719 16.1836C43.01 16.1836 48.075 22.8403 48.075 31.0403C48.075 37.9863 44.1193 41.3306 39.6821 44.5137C36.579 46.7323 35.8228 46.2983 32.6751 43.8549C29.3627 41.2659 25.4561 37.4075 25.4561 31.0403C25.4515 22.8403 30.5166 16.1836 36.7719 16.1836Z" fill="#3E6C02"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M32.0983 13.1289C38.3364 13.1289 43.4014 19.7856 43.4014 27.9856C43.4014 34.9152 39.4457 38.2759 35.0249 41.4591C31.9054 43.6776 31.1501 43.2436 28.0179 40.8002C24.69 38.2113 20.7988 34.3529 20.7988 27.9856C20.7952 19.7856 25.8639 13.1289 32.0983 13.1289Z" fill="white" stroke="black" strokeWidth="2.73" strokeMiterlimit="22.926"/>
+    <path d="M15.3896 49.9176C22.9372 46.102 40.3237 45.5987 48.3535 49.9176" stroke="black" strokeWidth="2.73" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M34.2696 13.0169C43.6918 8.83632 40.6042 18.2102 48.7086 19.1139C44.2869 23.8732 32.0674 27.6351 28.128 21.1878C24.8002 19.1457 20.6351 21.8148 20.7962 27.9891C19.4312 17.586 23.4652 7.42309 34.2696 13.0196V13.0169Z" fill="white" stroke="black" strokeWidth="2.73" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+);
+
+// Pet Safety Icon
+const PetSafetyIcon = () => (
+  <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fillRule="evenodd" clipRule="evenodd" d="M44.1165 35.7366C48.0022 28.4719 52.6482 19.7856 56.6117 12.9729C58.4059 9.14708 63.3551 11.2555 61.4494 15.4302C57.687 22.4498 53.1356 31.1015 49.0446 38.264C54.4196 41.1538 58.9279 44.1695 58.2656 46.1588C52.4581 58.4445 46.9928 63.8617 30.2317 64.2385C21.9804 48.8814 24.3118 43.813 33.0725 30.0541C33.0176 30.5592 38.3436 32.8957 44.1165 35.7366Z" fill="#3E6C02"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M39.8928 31.5129C43.7786 24.2483 48.4246 15.5619 52.388 8.74922C54.1822 4.92345 59.1315 7.03189 57.2258 11.2065C53.4634 18.2262 48.912 26.8779 44.821 34.0403C50.196 36.9302 54.7043 39.9458 54.042 41.9352C48.2345 54.2209 42.7691 59.6381 26.008 60.0149C17.7568 44.6577 20.0882 39.5894 28.8489 25.8304C28.794 26.3356 34.12 28.6721 39.8928 31.5129Z" fill="white" stroke="black" strokeWidth="2.4835" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M31.7824 14.3203C26.691 15.1553 21.945 17.43 18.1048 20.8756C14.2647 24.3212 11.4908 28.7938 10.1108 33.7652C8.73084 38.7366 8.80244 43.9991 10.3172 48.9312C11.8319 53.8632 14.7264 58.2587 18.6589 61.5985C22.5914 64.9384 27.3976 67.0831 32.5098 67.7793C37.622 68.4754 42.8266 67.6941 47.509 65.5274C52.1914 63.3607 56.1559 59.8993 58.9343 55.5519C61.7127 51.2045 63.1889 46.1528 63.1885 40.9934" stroke="black" strokeWidth="2.4835" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M9.12349 25.231C9.11747 27.3194 8.28519 29.3205 6.80846 30.7972C5.33173 32.274 3.33059 33.1062 1.24219 33.1123C3.33059 33.1183 5.33173 33.9506 6.80846 35.4273C8.28519 36.904 9.11747 38.9052 9.12349 40.9936C9.12951 38.9052 9.96179 36.904 11.4385 35.4273C12.9152 33.9506 14.9164 33.1183 17.0048 33.1123C14.9164 33.1062 12.9152 32.274 11.4385 30.7972C9.96179 29.3205 9.12951 27.3194 9.12349 25.231Z" fill="white" stroke="black" strokeWidth="2.4835" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M38.9233 1.97119C38.9173 4.05959 38.085 6.06074 36.6083 7.53747C35.1315 9.0142 33.1304 9.84648 31.042 9.8525C33.1304 9.85851 35.1315 10.6908 36.6083 12.1675C38.085 13.6443 38.9173 15.6454 38.9233 17.7338C38.9293 15.6454 39.7616 13.6443 41.2383 12.1675C42.7151 10.6908 44.7162 9.85851 46.8046 9.8525C44.7162 9.84648 42.7151 9.0142 41.2383 7.53747C39.7616 6.06074 38.9293 4.05959 38.9233 1.97119Z" fill="white" stroke="black" strokeWidth="2.4835" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M63.1885 20.2812C63.1825 21.758 62.5932 23.1726 61.5489 24.2169C60.5047 25.2611 59.0901 25.8504 57.6133 25.8564C59.0897 25.8609 60.5044 26.449 61.5488 27.4925C62.5933 28.536 63.1827 29.9502 63.1885 31.4266C63.1927 29.9506 63.7809 28.5363 64.8246 27.4926C65.8683 26.4489 67.2826 25.8607 68.7586 25.8564C67.2822 25.8507 65.868 25.2612 64.8245 24.2168C63.781 23.1724 63.1929 21.7576 63.1885 20.2812Z" fill="white" stroke="black" strokeWidth="2.4835" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M29.1985 36.1834C30.3017 38.4641 28.3124 37.5096 27.4676 40.9983C26.9929 43.0713 27.6003 43.791 27.2142 45.0049C26.7741 46.408 26.1465 46.5549 25.2874 45.2634C23.8632 43.1203 25.42 38.6525 27.5487 36.349C28.5539 35.2601 28.6308 35.016 29.1959 36.18L29.1985 36.1834Z" fill="black"/>
+  </svg>
+);
+
+// Customer Portal Icon
+const CustomerPortalIcon = () => (
+  <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fillRule="evenodd" clipRule="evenodd" d="M14.0322 53.7409C11.5243 53.8964 12.5839 59.3107 12.613 57.3666C12.6422 55.2378 74.9601 60.5063 69.6819 53.1674C70.3623 52.6619 61.4778 44.4676 60.1461 43.5538C59.3296 43.4761 58.5033 43.3983 57.6868 43.34C61.7986 43.5247 61.8763 42.7568 61.8763 36.2732V22.1591C61.8763 14.6646 60.9529 15.9477 52.6613 16.3657C44.0473 16.8014 35.4125 16.5706 26.8341 15.6755C26.4148 15.6299 25.9907 15.6698 25.5873 15.7927C25.1839 15.9156 24.8096 16.119 24.4871 16.3907C24.1645 16.6624 23.9004 16.9966 23.7107 17.3733C23.521 17.7499 23.4096 18.1611 23.3833 18.582V40.5308C23.4283 41.2689 23.7347 41.9669 24.2478 42.4996C24.7608 43.0322 25.4468 43.3646 26.1828 43.4372L25.9495 43.4566L12.6422 52.8369C12.3311 53.0605 13.0213 53.4784 14.0322 53.7409Z" fill="#3E6C02"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M44.9465 42.791C36.4429 42.4444 27.9263 42.5937 19.44 43.2382C19.0197 43.2773 18.5958 43.2319 18.1932 43.1047C17.7907 42.9775 17.4176 42.771 17.0961 42.4975C16.7745 42.2239 16.511 41.8888 16.3209 41.5119C16.1308 41.1349 16.018 40.7238 15.9893 40.3026V18.3635C16.0144 17.9418 16.125 17.5296 16.3142 17.1519C16.5034 16.7742 16.7673 16.4389 17.09 16.1662C17.4126 15.8936 17.7873 15.6893 18.1912 15.5657C18.5952 15.4421 19.02 15.4019 19.44 15.4473C28.0182 16.3473 36.6533 16.578 45.2673 16.1375C53.5589 15.7195 54.4823 14.4364 54.4823 21.9309V36.045C54.4823 44.6185 54.3462 43.209 44.9465 42.791Z" fill="white" stroke="black" strokeWidth="2.81894" strokeMiterlimit="22.926" strokeLinecap="round"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M53.0544 40.9195L62.0362 50.0956C62.5513 50.4261 60.5003 51.2621 58.634 51.2135C54.7264 51.126 54.0459 51.1941 47.9318 51.2427C38.9112 51.0871 20.5006 51.0288 11.48 51.2524C9.61368 51.2913 7.65015 50.5525 8.07785 50.1248L17.1179 40.832C29.0762 39.8101 41.1012 39.8394 53.0544 40.9195Z" fill="white" stroke="black" strokeWidth="2.81894" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M35.5057 20.606C36.8974 20.6613 38.2102 21.2667 39.1561 22.2891C40.1019 23.3114 40.6035 24.6673 40.5506 26.0591C40.5506 28.6059 38.7912 29.8404 36.8082 31.0069L36.7791 31.0166C39.8524 31.4524 42.7009 32.875 44.8956 35.07C45.0597 35.2334 45.17 35.4429 45.212 35.6706C45.2539 35.8983 45.2255 36.1334 45.1305 36.3446C45.0355 36.5557 44.8784 36.7329 44.6801 36.8525C44.4819 36.9721 44.2519 37.0285 44.0208 37.0141L26.8836 36.6253C26.5821 36.6197 26.2952 36.4948 26.0856 36.2779C25.8761 36.0611 25.7611 35.77 25.7658 35.4686C25.7716 35.1745 25.8939 34.8948 26.106 34.6909L26.0963 34.6812C28.1989 32.5439 30.9932 31.2243 33.9796 30.9583L33.6782 30.7638C32.191 29.8112 30.451 28.3921 30.451 26.0591C30.4003 24.6663 30.9039 23.3101 31.8514 22.2879C32.7988 21.2657 34.113 20.6609 35.5057 20.606Z" fill="#CCCACB"/>
+    <path d="M34.9671 68.5578C53.5007 68.5578 68.5251 53.5334 68.5251 34.9999C68.5251 16.4663 53.5007 1.44189 34.9671 1.44189C16.4336 1.44189 1.40918 16.4663 1.40918 34.9999C1.40918 53.5334 16.4336 68.5578 34.9671 68.5578Z" stroke="black" strokeWidth="2.81894" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M26.6133 47.6812C32.0276 47.4479 38.8708 47.6909 44.7906 47.6521" stroke="black" strokeWidth="2.81894" strokeMiterlimit="22.926" strokeLinecap="round"/>
+  </svg>
+);
+
+// No Contracts Icon
+const NoContractsIcon = () => (
+  <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fillRule="evenodd" clipRule="evenodd" d="M54.6142 25.7021C54.1805 38.6848 54.7376 45.2098 55.6059 58.1783C55.7794 60.8607 53.8948 63.0851 51.7756 63.0993L22.843 63.2769C20.736 63.2901 18.7617 61.0791 18.9749 58.3966C19.9789 45.0098 20.2146 38.8348 19.4708 25.448C18.8137 13.6887 17.1159 12.3826 26.9978 12.3285L45.6046 12.2204C56.9099 12.1531 55.0509 12.3551 54.6172 25.7021H54.6142Z" fill="#3E6C02"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M51.6959 24.8074C51.2878 36.1259 51.8286 41.8143 52.6734 53.1206C52.7188 53.6487 52.6574 54.1806 52.493 54.6845C52.3287 55.1884 52.0646 55.6542 51.7166 56.054C51.3685 56.4538 50.9437 56.7795 50.4672 57.0118C49.9907 57.2441 49.4724 57.3781 48.9431 57.406L20.7696 57.5591C20.2381 57.5402 19.7159 57.4136 19.2348 57.1869C18.7536 56.9603 18.3235 56.6383 17.9705 56.2404C17.6175 55.8426 17.349 55.3772 17.1812 54.8725C17.0134 54.3678 16.9498 53.8343 16.9944 53.3043C17.9719 41.6337 18.2137 36.2504 17.4892 24.5798C16.8454 14.3347 15.1945 13.1949 24.8142 13.148L42.9323 13.0531C53.9407 12.9939 52.1306 13.1715 51.6959 24.8074Z" fill="white" stroke="black" strokeWidth="3.061" strokeMiterlimit="22.926" strokeLinecap="round"/>
+    <path d="M34.9993 68.4682C53.4837 68.4682 68.4682 53.4837 68.4682 34.9993C68.4682 16.5148 53.4837 1.53027 34.9993 1.53027C16.5148 1.53027 1.53027 16.5148 1.53027 34.9993C1.53027 53.4837 16.5148 68.4682 34.9993 68.4682Z" stroke="black" strokeWidth="3.061" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M12.8662 12.8813L60.2005 57.3475" stroke="black" strokeWidth="3.061" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M23.5479 52.6488C31.8126 36.1929 15.1669 49.4235 25.6712 52.3019C28.6169 53.1121 28.1486 48.5644 30.5127 50.6316C34.8236 54.4069 39.9936 52.9304 44.7596 51.8723" stroke="black" strokeWidth="3.061" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M21.4717 25.1957C25.6795 24.4203 31.9515 24.5325 36.3481 24.5325" stroke="black" strokeWidth="3.061" strokeMiterlimit="22.926" strokeLinecap="round"/>
+    <path d="M21.9736 31.7189C28.717 31.5454 37.1072 31.6475 44.2169 31.0557" stroke="black" strokeWidth="3.061" strokeMiterlimit="22.926" strokeLinecap="round"/>
+    <path d="M21.5693 38.8937C28.6219 38.7202 37.3978 38.8223 44.8329 38.2305" stroke="black" strokeWidth="3.061" strokeMiterlimit="22.926" strokeLinecap="round"/>
+  </svg>
+);
+
+// Gate Photos Icon
+const GatePhotosIcon = () => (
+  <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fillRule="evenodd" clipRule="evenodd" d="M17.6142 18.0154L18.0081 16.3753C18.1618 15.8148 18.4306 15.2924 18.7973 14.8415C19.1641 14.3906 19.6207 14.0211 20.1382 13.7565C20.6557 13.4919 21.2226 13.338 21.8029 13.3046C22.3831 13.2713 22.9639 13.3592 23.5083 13.5628C35.6843 17.9889 44.7431 20.8306 57.3475 23.4211C68.4168 25.6961 70.0616 24.2547 67.6157 34.5651L63.0108 53.9827C61.1485 61.8312 60.6467 63.5787 56.899 62.7389C55.3778 64.7002 52.4512 63.2989 44.7242 61.6289C32.5018 58.9794 22.7658 57.7423 10.3453 56.4701C9.16184 56.3547 8.07232 55.7752 7.31511 54.8584C6.5579 53.9417 6.19467 52.7623 6.30489 51.5783L10.7667 20.8803C10.8713 20.3084 11.0936 19.7644 11.4196 19.2829C11.7457 18.8015 12.1682 18.3931 12.6605 18.0837C13.1528 17.7743 13.7041 17.5707 14.2793 17.4858C14.8545 17.4008 15.4411 17.4364 16.0018 17.5903C16.548 17.7389 17.0814 17.8776 17.6126 18.0159L17.6142 18.0154Z" fill="#3E6C02"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M43.887 53.2783C31.9506 49.5566 22.358 47.4681 10.1089 45.0959C9.52938 44.9897 8.97653 44.7703 8.48194 44.4503C7.98734 44.1302 7.56072 43.7158 7.22646 43.2307C6.89221 42.7455 6.65689 42.1993 6.53398 41.6231C6.41107 41.047 6.40297 40.4522 6.51015 39.8729L13.673 9.68425C13.8266 9.12373 14.0954 8.60137 14.4622 8.15049C14.8289 7.6996 15.2856 7.33008 15.803 7.06547C16.3205 6.80086 16.8875 6.64697 17.4677 6.61361C18.0479 6.58025 18.6288 6.66815 19.1732 6.87172C31.3492 11.2978 40.3999 14.1412 53.0124 16.7301C64.0817 19.005 65.7264 17.5637 63.2805 27.874L58.6756 47.2917C55.8786 59.0865 56.1555 57.0985 43.8866 53.2805L43.887 53.2783Z" fill="white" stroke="black" strokeWidth="2.14319" strokeMiterlimit="22.926" strokeLinecap="round"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M41.3598 55.3C29.1449 52.6518 19.4088 51.4147 6.98758 50.1424C5.80415 50.0269 4.71462 49.4474 3.95741 48.5307C3.2002 47.6139 2.83697 46.4345 2.9472 45.2506L7.40862 14.5548C7.51316 13.9829 7.73551 13.4389 8.06154 12.9574C8.38756 12.476 8.81014 12.0676 9.30244 11.7582C9.79474 11.4488 10.346 11.2452 10.9212 11.1602C11.4964 11.0753 12.083 11.1109 12.6437 11.2648C25.1604 14.5909 34.4312 16.6225 47.2202 18.0862C58.4483 19.3799 59.9547 17.793 58.4366 28.2826L55.5645 48.0339C53.8184 60.022 53.9185 58.0242 41.3598 55.3Z" fill="white" stroke="black" strokeWidth="2.26394" strokeMiterlimit="22.926" strokeLinecap="round"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M22.4812 27.373C22.9322 27.4228 31.8683 24.5559 31.5843 26.1633C30.8279 30.4453 29.3018 31.1719 28.7591 37.3584C28.7129 37.915 27.0618 45.9128 26.9384 46.1515C26.2974 45.9494 21.5864 41.3921 19.9119 41.2449L22.4812 27.373Z" fill="white" stroke="black" strokeWidth="2.26394" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M18.7596 42.9294C18.0514 42.9123 17.3499 42.7884 16.6788 42.5618C16.5353 42.5066 16.5799 41.4815 16.7828 40.3724L19.1336 27.3164C19.7883 23.6923 18.8953 24.5829 22.0024 25.1318C22.6801 25.2515 22.9111 24.408 21.9827 29.5814L20.2244 39.322C19.7113 42.1013 19.9076 43.0502 18.7618 42.9298L18.7596 42.9294Z" fill="white" stroke="black" strokeWidth="2.26394" strokeMiterlimit="22.926" strokeLinecap="round"/>
+    <path d="M21.0953 24.607C22.4091 24.8391 23.6582 23.9848 23.8854 22.699C24.1125 21.4131 23.2316 20.1826 21.9179 19.9505C20.6041 19.7184 19.3549 20.5727 19.1278 21.8585C18.9006 23.1444 19.7815 24.3749 21.0953 24.607Z" fill="white" stroke="black" strokeWidth="2.26394" strokeMiterlimit="22.926"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M40.0767 45.3939C39.6257 45.3441 30.6807 48.2095 30.9646 46.6021C31.7211 42.3201 33.2546 41.5948 33.7972 35.4083C33.8435 34.8516 35.4946 26.8539 35.618 26.6152C36.259 26.8173 40.97 31.3746 42.6444 31.5217L40.0767 45.3939Z" fill="white" stroke="black" strokeWidth="2.26394" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M43.7974 29.8371C44.5056 29.8542 45.2071 29.9781 45.8782 30.2047C46.0217 30.2599 45.9771 31.285 45.7742 32.3941L43.4234 45.4501C42.7687 49.0742 43.6617 48.1836 40.5546 47.6347C39.8769 47.515 39.6459 48.3585 40.5743 43.1851L42.3326 33.4445C42.8383 30.6639 42.6494 29.7163 43.7952 29.8367L43.7974 29.8371Z" fill="white" stroke="black" strokeWidth="2.26394" strokeMiterlimit="22.926" strokeLinecap="round"/>
+    <path d="M44.8609 28.9092C46.1747 29.1413 47.4238 28.2871 47.651 27.0012C47.8781 25.7153 46.9972 24.4848 45.6835 24.2527C44.3697 24.0207 43.1205 24.8749 42.8934 26.1608C42.6663 27.4466 43.5471 28.6772 44.8609 28.9092Z" fill="white" stroke="black" strokeWidth="2.26394" strokeMiterlimit="22.926"/>
+    <path d="M26.6305 34.5218C26.5162 35.0308 26.4422 35.5481 26.4093 36.0687" stroke="black" strokeWidth="2.26394" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M36.308 36.4763C36.125 37.0911 36.0131 37.7247 35.9744 38.3649" stroke="black" strokeWidth="2.26394" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M45.671 33.0005L57.6178 34.3078" stroke="black" strokeWidth="2.26394" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M42.9746 48.0469L55.2214 50.3068" stroke="black" strokeWidth="2.26394" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M7.11731 25.2534L19.0641 26.5607" stroke="black" strokeWidth="2.26394" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M4.42188 40.3003L16.6753 42.5614" stroke="black" strokeWidth="2.26394" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+);
+
+// Notification Texts Icon
+const NotificationTextsIcon = () => (
+  <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fillRule="evenodd" clipRule="evenodd" d="M39.3908 25.1333C38.365 29.9782 37.6727 33.8213 35.79 38.4282C35.402 39.3764 36.4244 40.554 37.8296 40.9282L43.4917 42.4445L40.0348 46.9851L50.7046 44.5204L55.4744 45.8497C56.8753 46.2411 58.3977 45.7885 58.5365 44.7678C59.2262 39.6669 60.8555 36.2264 62.7038 31.448C64.327 27.254 65.5856 27.0825 59.0434 25.2592L46.7219 21.8238C39.2391 19.7394 40.4451 20.1523 39.3908 25.1333Z" fill="#3E6C02"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M52.9119 31.3956C49.7421 41.7767 47.7912 50.087 45.4981 60.706C45.024 62.9008 43.2567 64.3413 41.8283 63.9586L22.293 58.7293C20.8628 58.3474 20.0317 56.2068 20.7602 54.0844C24.1915 44.4617 27.0415 34.6414 29.2947 24.6767C31.4567 15.087 30.6016 13.7172 37.274 15.5043L49.8404 18.8663C57.4628 20.9043 56.1679 20.7258 52.9119 31.3956Z" fill="#3E6C02"/>
+    <path d="M15.7849 18.791C12.3503 21.901 9.72067 25.7971 8.12131 30.1457C6.52195 34.4943 6.00053 39.1658 6.60169 43.7601C7.20285 48.3543 8.90868 52.7344 11.5731 56.5251C14.2375 60.3158 17.781 63.4042 21.9002 65.5257C26.0194 67.6472 30.5914 68.7386 35.2247 68.7064C39.858 68.6743 44.4145 67.5195 48.5038 65.341C52.5932 63.1625 56.0935 60.0253 58.705 56.1979C61.3165 52.3706 62.9614 47.9673 63.4987 43.3652" stroke="black" strokeWidth="2.58621" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M49.772 26.2656C46.6022 36.6466 44.6531 44.9569 42.3582 55.5759C41.8824 57.7707 40.1169 59.2113 38.6884 58.8285L19.1531 53.6009C17.7229 53.2164 16.8901 51.0768 17.6203 48.9544C21.0489 39.3301 23.8969 29.5087 26.1488 19.5432C28.3125 9.9535 27.4582 8.58539 34.1281 10.3707L46.6944 13.7328C54.3238 15.7742 53.0306 15.5957 49.7729 26.2647L49.772 26.2656Z" fill="white" stroke="black" strokeWidth="2.58621" strokeMiterlimit="22.926" strokeLinecap="round"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M34.6473 19.8005C33.6197 24.6453 32.9292 28.4885 31.0465 33.0954C30.6568 34.0436 31.6792 35.2212 33.0844 35.5954L38.7482 37.1117L35.293 41.6548L45.9646 39.1902L50.7318 40.5195C52.1327 40.9109 53.6568 40.4583 53.7939 39.4376C54.4835 34.3367 56.1146 30.8962 57.9628 26.1178C59.5835 21.9238 60.8421 21.7522 54.3025 19.929L41.9792 16.4936C34.4982 14.4074 35.7059 14.8203 34.6516 19.8005H34.6473Z" fill="white" stroke="black" strokeWidth="2.58621" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M38.9307 24.3955C42.4419 24.6679 47.3945 26.13 50.8841 27.0912" stroke="black" strokeWidth="2.58621" strokeMiterlimit="22.926" strokeLinecap="round"/>
+    <path d="M38.1143 29.5273C41.5625 30.3187 45.7867 31.5739 49.5143 32.0679" stroke="black" strokeWidth="2.58621" strokeMiterlimit="22.926" strokeLinecap="round"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M29.374 50.9673C29.524 51.9846 32.5947 53.9389 33.9162 51.2035C35.0861 48.7854 28.8688 47.5432 29.374 50.9673Z" fill="white" stroke="black" strokeWidth="2.58621" strokeMiterlimit="22.926"/>
+    <path d="M22.3164 9.92471C23.613 5.2842 26.9457 4.56006 31.2561 4.56006" stroke="black" strokeWidth="2.58621" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M20.3633 5.30504C21.3331 1.83176 23.8254 1.29297 27.0495 1.29297" stroke="black" strokeWidth="2.58621" strokeMiterlimit="22.926" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+);
+
+// Example SVG icon - replace with your actual icons
+const ExampleIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="70"
+    height="70"
+    viewBox="0 0 75.438 76.923"
+  >
+    <g
+      id="Example_Icon"
+      data-name="Example Icon"
+      transform="translate(1.5 1.5)"
+    >
+      <path
+        d="M28.016,65.456A32.593,32.593,0,1,1,65.88,33.281"
+        transform="translate(-0.7 -0.7)"
+        fill="none"
+        stroke="#000"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeMiterlimit="22.926"
+        strokeWidth="3"
+        fillRule="evenodd"
+      ></path>
+    </g>
+  </svg>
+);
+
+const whyUsItems = [
+  {
+    icon: <VettedEmployeesIcon />,
+    title: "Vetted Employees",
+    description:
+      "Our team undergoes rigorous background checks and driving screenings to ensure trustworthiness and reliability.",
+  },
+  {
+    icon: <PetSafetyIcon />,
+    title: "Pet Safety",
+    description:
+      "We clean all of our equipment and shoes with a kennel-grade disinfectant after every cleanup, minimizing the spread of germs and illness.",
+  },
+  {
+    icon: <CustomerPortalIcon />,
+    title: "Customer Portal",
+    description:
+      "Enjoy hassle-free service with your own customer portal, which allows you to set up automatic payments, keep track of invoices, and manage your service online.",
+  },
+  {
+    icon: <NoContractsIcon />,
+    title: "No Contracts",
+    description:
+      "Enjoy the freedom of our flexible services without being tied down by any contracts, giving you the flexibility to start or stop whenever you need.",
+  },
+  {
+    icon: <GatePhotosIcon />,
+    title: "Gate Photos",
+    description:
+      "You will receive a reassuring snapshot of your closed gate after each service visit, giving you peace of mind as your furry friends venture back into their tidy yard.",
+  },
+  {
+    icon: <NotificationTextsIcon />,
+    title: "Notification Texts",
+    description:
+      "We'll send you a notification text 60 minutes before we arrive and an email once the job is done, ensuring you're informed at every step of the process.",
+  },
+];
+
+export default function WhyUs() {
+  return (
+
+    <div className="px-4">
+
+      <div className={`bg-custom-gradient !rounded-[var(--radius)]`}>
+        
+          <div className=" ">
+
+            <ReusableWhyChoose
+              sectionClassName="WHYUS"
+              eyebrowText="The Best in SoCal"
+              heading="Why Doodie Duty?"
+              subheading="Nobody Scoops More Pet Waste than Doodie Duty in SoCal. There is a reason we have over 1,000 Top Customer Experiences."
+              items={whyUsItems}
+              showGrassFooter={true}
+              white={true}
+              dogImageUrl=""
+              grassColor="default"
+              
+            />
+          </div>
+        </div>
+      </div>
+    
+
+  );
+}
