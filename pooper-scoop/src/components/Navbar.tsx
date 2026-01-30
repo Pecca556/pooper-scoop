@@ -43,7 +43,7 @@ export default function Navbar() {
                 {/* logo */}
                 <div>
                     <Link draggable={false} href="/" className="block logo-hover">
-                        <img draggable={false} src="/images/avif/logo.avif" alt="Logo" className="w-30 h-auto " />
+                        <img draggable={false} src="/images/logo.png" alt="Logo" className="w-30 h-auto " />
                     </Link>
                 </div>
 

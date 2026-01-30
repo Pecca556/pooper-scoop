@@ -85,7 +85,7 @@ export default function RemovalCompany() {
                 fetchPriority="high"
               />
             </div>
-            <img className="w-60 absolute bottom-0" src="/images/avif/home-page/dog.avif" alt="" />
+            <img className="w-40 absolute bottom-0" src="/images/home-page/poop.png" alt="" />
           </div>
         </div>
       </div>

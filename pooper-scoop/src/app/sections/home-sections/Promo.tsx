@@ -67,7 +67,7 @@ export default function Commercial() {
           </div>
           <div className="h-full flex-1 flex flex-row-reverse justify-center">
             <img
-              src="/images/avif/mascottes/test-2.avif"
+              src="/images/mascottes/test-2.png"
               alt="Promo"
               className="h-full w-auto"
             />

@@ -31,7 +31,7 @@ export default function ReusableWhyChoose({
   items,
   showGrassFooter = true,
   grassColor = 'black',
-  dogImageUrl = "/images/avif/mascottes/grass-divider-dog-shovel.avif",
+  dogImageUrl = "/images/mascottes/grass-divider-dog-shovel.png",
   dogImageAlt = "dog with a shovel",
   white = false,
   grassFooterHeight = 90,
@@ -96,7 +96,7 @@ export default function ReusableWhyChoose({
           style={{ backgroundImage: `url(${grassImageUrl})` }}
         >
           {dogImageUrl && (
-            <div className="dog hidden lg:block absolute bottom-0 left-[20%] z-10">
+            <div className="dog hidden lg:block absolute bottom-[-16px] left-[20%] z-10">
               <img src={dogImageUrl} alt={dogImageAlt} className="h-[200px] w-auto"/>
             </div>
           )}
