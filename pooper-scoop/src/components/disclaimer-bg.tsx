@@ -6,7 +6,7 @@ interface DisclaimerBgProps {
 }
 
 export default function DisclaimerBg({
-  src = "/images/avif/disclaimer-bg-3.avif",
+  src = "/images/disclaimer-bg-3.png",
   alt = "",
   objectPosition = "object-bottom",
   className = "",

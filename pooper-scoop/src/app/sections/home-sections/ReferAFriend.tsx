@@ -31,8 +31,8 @@ export default function ReferAFriend() {
                 <Link href="/refer-a-friend">Learn More</Link>
               </Button>
               <img
-                className="w-[413px]"
-                src="/images/avif/mascottes/refer-a-friend.avif"
+                className="h-[204px]"
+                src="/images/mascottes/refer-a-friend.png"
                 alt="heartdogs"
               />
             </div>
@@ -70,7 +70,7 @@ export default function ReferAFriend() {
 
               <img
                 className="h-[169px] pt-[20px]"
-                src="/images/avif/mascottes/home-referafriend-dontwaitsignup.avif"
+                src="/images/mascottes/home-referafriend-dontwaitsignup.png"
                 alt="heartdogs"
               />
             </div>

@@ -25,9 +25,9 @@ import {
 import ReusableFreeQuoteDialog from "@/components/functionality/ReusableFreeQuoteDialog"
 import locations from "@/app/data/locations.json";
 
-const navColor = "!transition-colors !duration-200 hover:!bg-[var(--brandcolor-midgreen)] hover:!text-white";
-const activeNavColor = "!bg-[var(--brandcolor-midgreen)] !text-white";
-const activeNavColorMobile = "!text-[var(--brandcolor-midgreen)]"
+const navColor = "!transition-colors !duration-200 hover:!bg-[var(--brandcolor-midgrey)] hover:!text-white";
+const activeNavColor = "!bg-[var(--brandcolor-midgrey)] !text-white";
+const activeNavColorMobile = "!text-[var(--brandcolor-midgrey)]"
 
 export default function Navbar() {
     const pathname = usePathname()
