@@ -17,7 +17,7 @@ export default function Vision() {
           imageAlt={"aaaa"}
           textOrderClass="lg:order-1"
           imageOrderClass="lg:order-2"
-          imageUrl="/images/avif/real-life-images/employee-in-the-garden.avif"
+          imageUrl="/images/real-life-images/employee-in-the-garden.png"
         />
         <VisionMissionBlock
           subheader="The Future"

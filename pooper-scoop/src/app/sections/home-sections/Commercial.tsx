@@ -55,7 +55,7 @@ export default function Commercial() {
   return (
     <div className="mx-auto w-full px-4">
       <div className="rounded-[var(--radius)] py-[50px] overflow-hidden relative">
-        <img src="/images/avif/real-life-images/two-emps-poop-pole.avif" alt="" className="w-full h-full object-cover object-[center_27%] absolute inset-0 -z-1" />
+        <img src="/images/real-life-images/two-emps-poop-pole.png" alt="" className="w-full h-full object-cover object-[center_27%] absolute inset-0 -z-1" />
         <div className="flex flex-row max-w-[var(--view-width)] mx-auto px-[20px] gap-[25px]">
           <div ref={ref} className="flex md:w-1/2 flex-col gap-y-4 py-14 py-10 px-[50px] bg-[#F8F8F8] rounded-[var(--radius)]">
             {/* Header section with fade-in */}

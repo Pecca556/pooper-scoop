@@ -64,7 +64,7 @@ export default function VisionMissionBlock({
         <img
           src={imageUrl}
           alt={imageAlt}
-          className="object-cover w-full h-full absolute"
+          className="object-cover h-full w-full absolute "
         />
       </div>
     </>

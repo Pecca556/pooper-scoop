@@ -41,7 +41,7 @@ export default function HomeBackgroundHero({
           {children}
           {showHeroImage && (
             <img 
-              src="/images/avif/real-life-images/creeper.avif" 
+              src="/images/hero.png" 
               alt="Doodie Duty professional pet waste removal service" 
               className="h-[30vw] absolute right-0 bottom-[1%] max-md:relative max-md:h-auto max-md:w-full max-md:-mb-25 max-md:mt-20"
               fetchPriority="high"

@@ -9,7 +9,7 @@ export default function Hero() {
         topText="RESIDENTIAL"
         mainTitle="Pet Waste  Removal"
         subtitle="Get your free quote today to get started!"
-        imageSrc="/images/avif/real-life-images/residential-hero.avif"
+        imageSrc="/images/real-life-images/residential-hero.png"
         imageAlt="Residential pet waste service"
         showQuoteInput={true}
       />

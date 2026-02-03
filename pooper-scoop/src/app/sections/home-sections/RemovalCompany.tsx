@@ -79,7 +79,7 @@ export default function RemovalCompany() {
             </div>
             <div className="overflow-hidden rounded-[var(--radius)] lg:w-1/2 min-h-0 relative md:self-stretch max-md:aspect-[593.758/555]">
               <img 
-                src="/images/avif/real-life-images/girls-on-car.avif" 
+                src="/images/real-life-images/girls-on-car.png" 
                 alt="Doodie Duty team members with service vehicle" 
                 className="w-full h-full object-cover absolute inset-0"
                 fetchPriority="high"

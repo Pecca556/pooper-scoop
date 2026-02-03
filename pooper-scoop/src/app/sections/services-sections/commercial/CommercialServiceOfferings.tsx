@@ -122,7 +122,7 @@ export default function CommercialServiceOfferings() {
               </div>
               <div className="h-[90px] w-full bg-[url('/images/home-page/grass.svg')] bg-repeat-x bg-bottom [background-size:auto] z-1 relative "></div>
               <img
-                src="/images/avif/mascottes/commercialserviceofferings.avif"
+                src="/images/mascottes/commercialserviceofferings.png"
                 alt=""
                 className="absolute right-0 bottom-0 h-[383px] pointer-events-none select-none max-md:hidden z-0 -translate-y-5"
               />
