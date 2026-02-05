@@ -9,7 +9,7 @@ export default function DeodorizerHero() {
                 topText="RESIDENTIAL"
                 mainTitle="Pet Waste  Removal"
                 subtitle="Get your free quote today to get started!"
-                imageSrc="/images/avif/real-life-images/dogs-car.avif"
+                imageSrc="/images/real-life-images/dogs-car.png"
                 imageAlt="Residential pet waste service"
                 showQuoteInput={true}
               />

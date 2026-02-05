@@ -5,7 +5,7 @@ const sectionOne = {
   subheader: "Our Vision",
   title: "A Cleaner Tomorrow",
   text: "To create a cleaner and fresher environment for everyone.",
-  imageUrl: "/images/avif/real-life-images/girl-park.avif",
+  imageUrl: "/images/real-life-images/girl-park.png",
   imageAlt: "Vision image",
 };
 
@@ -13,7 +13,7 @@ const sectionTwo = {
   subheader: "Our Mission",
   title: "Delivering Excellence",
   text: "Delivering top-notch deodorizing services with eco-friendly solutions.",
-  imageUrl: "/images/avif/real-life-images/waterfall.avif",
+  imageUrl: "/images/real-life-images/waterfall.png",
   imageAlt: "Mission image",
 };
 

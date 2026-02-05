@@ -73,7 +73,7 @@ export default function Story() {
                 /* img container */ className="flex-1 flex flex-col justify-center overflow-hidden rounded-[30px]"
           >
             <img
-              src="/images/avif/real-life-images/the-fleet.avif"
+              src="/images/real-life-images/the-fleet.png"
               alt=""
               className="object-cover w-full h-100"
             />

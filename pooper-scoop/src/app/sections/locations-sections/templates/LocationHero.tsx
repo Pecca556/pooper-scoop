@@ -10,7 +10,7 @@ export default function LocationHero({ name }: LocationHeroProps) {
         <div className="mx-auto w-full relative z-1">
             <div className="flex max-w-[var(--view-width)] flex-col w-full text-center mx-auto gap-[40px]">
                 <img
-                    src="/images/avif/real-life-images/females-OC.avif"
+                    src="/images/real-life-images/females-OC.png"
                     alt=""
                     className="w-full object-cover aspect-[1257/400] md:aspect-[1257/314.25] rounded-[var(--radius)]"
                 />

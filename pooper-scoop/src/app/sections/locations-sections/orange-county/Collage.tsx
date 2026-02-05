@@ -3,22 +3,22 @@ import ImageGridSection from "@/components/ImageGridSection";
 
 const collageImages = [
   {
-    src: "/images/avif/real-life-images/females-OC.avif",
+    src: "/images/real-life-images/females-OC.png",
     alt: "Orange County",
     className: "col-span-6 max-sm:col-span-12",
   },
   {
-    src: "/images/avif/real-life-images/grid-OC/landmark-oc.avif",
+    src: "/images/real-life-images/grid-OC/landmark-oc.png",
     alt: "Orange County Landmark",
     className: "col-span-6 max-sm:col-span-12",
   },
   {
-    src: "/images/avif/real-life-images/grid-OC/doggies-sign.avif",
+    src: "/images/real-life-images/grid-OC/doggies-sign.png",
     alt: "Dogs with sign",
     className: "col-span-3 max-md:col-span-6 max-sm:col-span-12",
   },
   {
-    src: "/images/avif/real-life-images/grid-OC/employees-disney.avif",
+    src: "/images/real-life-images/grid-OC/employees-disney.png",
     alt: "Team at Disney",
     className: "col-span-6 max-md:col-span-6 max-sm:col-span-12",
   },

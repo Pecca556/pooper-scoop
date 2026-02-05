@@ -3,27 +3,27 @@ import ImageGridSection from "@/components/ImageGridSection";
 
 const teamImages = [
   {
-    src: "/images/avif/real-life-images/grid-about/employees-disney.avif",
+    src: "/images/real-life-images/grid-about/employees-santamonica.png",
     alt: "Team at Disney",
     className: "col-span-6 max-sm:col-span-12",
   },
   {
-    src: "/images/avif/real-life-images/grid-about/employees-shade.avif",
+    src: "/images/real-life-images/grid-about/employees-shade.png",
     alt: "Team in the shade",
     className: "col-span-6 max-sm:col-span-12",
   },
   {
-    src: "/images/avif/real-life-images/girl-holding-dog.avif",
+    src: "/images/real-life-images/grid-about/employee-dog.png",
     alt: "Team member with dog",
     className: "col-span-3 max-md:col-span-6 max-sm:col-span-12",
   },
   {
-    src: "/images/avif/real-life-images/grid-about/two-employees.avif",
+    src: "/images/real-life-images/grid-about/two-employees.png",
     alt: "Two team members",
     className: "col-span-6 max-md:col-span-6 max-sm:col-span-12",
   },
   {
-    src: "/images/avif/real-life-images/grid-about/employees-forest.avif",
+    src: "/images/real-life-images/grid-about/employees-forest.png",
     alt: "Team in the forest",
     className: "col-span-3 max-md:col-span-12 max-sm:col-span-12",
   },

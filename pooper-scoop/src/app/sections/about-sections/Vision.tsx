@@ -26,7 +26,7 @@ export default function Vision() {
           imageAlt={"aaaaa"}
           textOrderClass="lg:order-4"
           imageOrderClass="lg:order-3"
-          imageUrl="/images/avif/real-life-images/garden-work.avif"
+          imageUrl="/images/real-life-images/garden-work.png"
         />
       </div>
     </div>
