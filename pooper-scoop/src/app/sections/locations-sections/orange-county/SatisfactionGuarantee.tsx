@@ -8,7 +8,7 @@ export default function Satisfaction() {
           <div /* main flex */ className="flex flex-row max-w-[var(--view-width)] mx-auto justify-end max-lg:flex-col max-lg:py-[60px] ">
             <div className="flex-1 relative max-lg:w-full max-lg:flex max-lg:justify-center">
                 <img
-                  src="/images/avif/mascottes/satisfaction-guarantee.avif"
+                  src="/images/mascottes/satisfaction-guarantee.png"
                   alt="dog emblem"
                   className="w-[250px] object-cover absolute right-0 max-lg:relative max-lg:mx-auto -top-5 max-lg:top-0" 
                 />

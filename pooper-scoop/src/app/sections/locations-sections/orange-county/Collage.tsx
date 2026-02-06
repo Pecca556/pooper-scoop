@@ -18,12 +18,12 @@ const collageImages = [
     className: "col-span-3 max-md:col-span-6 max-sm:col-span-12",
   },
   {
-    src: "/images/real-life-images/grid-OC/employees-disney.png",
+    src: "/images/real-life-images/grid-OC/employees-santamonica.png",
     alt: "Team at Disney",
     className: "col-span-6 max-md:col-span-6 max-sm:col-span-12",
   },
   {
-    src: "/images/avif/real-life-images/grid-OC/employees-pier.avif",
+    src: "/images/real-life-images/grid-OC/employees-pier.png",
     alt: "Team at the pier",
     className: "col-span-3 max-md:col-span-12 max-sm:col-span-12",
   },
