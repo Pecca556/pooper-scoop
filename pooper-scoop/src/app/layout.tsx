@@ -24,30 +24,30 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Doodie Duty - Professional Pet Waste Removal Service",
-  description: "Professional pet waste removal service trusted by pet owners. Safe, reliable, and eco-friendly pet waste services for your yard.",
-  metadataBase: new URL('https://doodiedutyservice.com'), // Replace with your actual domain
+  title: "Pooper Scoopers - Professional Pet Waste Removal Service",
+  description: "Pooper Scoopers provides reliable, hassle-free pet waste removal services throughout Orange County. We help keep your yard clean and your pets safe.",
+  metadataBase: new URL('https://pooperscoopersservice.com'), // Replace with your actual domain
   openGraph: {
-    title: "Doodie Duty - Professional Pet Waste Removal Service",
-    description: "Professional pet waste removal service trusted by pet owners. Safe, reliable, and eco-friendly pet waste services for your yard.",
-    url: 'https://doodiedutyservice.com', // Replace with your actual domain
-    siteName: 'Doodie Duty',
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://pooperscoopersservice.com', // Replace with your actual domain
+    title: "Pooper Scoopers - Professional Pet Waste Removal Service",
+    description: "Pooper Scoopers provides reliable, hassle-free pet waste removal services throughout Orange County. We help keep your yard clean and your pets safe.",
+    siteName: 'Pooper Scoopers',
     images: [
       {
-        url: 'https://doodiedutyservice.com/images/open-graph.png',
+        url: 'https://pooperscoopersservice.com/images/open-graph.png',
         width: 1200,
         height: 630,
-        alt: 'Doodie Duty - Professional Pet Waste Removal Service',
+        alt: 'Pooper Scoopers - Professional Pet Waste Removal Service',
       },
     ],
-    locale: 'en_US',
-    type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Doodie Duty - Professional Pet Waste Removal Service",
-    description: "Professional pet waste removal service trusted by pet owners. Safe, reliable, and eco-friendly pet waste services for your yard.",
-    images: ['https://doodiedutyservice.com/images/open-graph.png'],
+    title: "Pooper Scoopers - Professional Pet Waste Removal Service",
+    description: "Pooper Scoopers provides reliable, hassle-free pet waste removal services throughout Orange County. We help keep your yard clean and your pets safe.",
+    images: ['https://pooperscoopersservice.com/images/open-graph.png'],
   },
   robots: {
     index: true,

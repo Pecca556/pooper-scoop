@@ -23,7 +23,7 @@ export default function Footer({ showMascotteImage = false }: FooterProps) {
         />
         {showMascotteImage && (
           <img
-            src="/images/avif/mascottes/all-locations-hero.avif"
+            src="/images/mascottes/all-locations-hero.png"
             alt="dog holding map"
             className="absolute h-90 -translate-y-90 left-8 max-lg:hidden"
           />
@@ -37,12 +37,12 @@ export default function Footer({ showMascotteImage = false }: FooterProps) {
             <div className="flex flex-col gap-3">
               <h3 className="font-bold text-lg mb-2">Get in touch</h3>
               <div className="flex flex-col gap-1 text-sm p !text-white">
-                <p>Doodie Duty<sup>©</sup></p>
+                <p>Pooper Scoopers<sup>©</sup></p>
                 {/* will be replaced with PO box address <p>16378 Scotch Pine St</p> */}
                 <p>Fountain Valley, CA  92708</p>
                 <p>United States</p>
                 <p>949-285-3854</p>
-                <p>info@doodiedutyservice.com</p>
+                <p>info@pooperscoopersservice.com</p>
                 <div className="mt-3">
                   <p className="font-semibold">Office Hours:</p>
                   <p>Everyday 8am - 8pm</p>
@@ -114,7 +114,7 @@ export default function Footer({ showMascotteImage = false }: FooterProps) {
 
           {/* Copyright */}
           <div className="w-full py-4 mb-8 max-sm:mb-0 p !text-white text-center">
-            © 2025 Doodie Duty
+            © 2026 Pooper Scoopers Service
           </div>
         </div>
       </div>

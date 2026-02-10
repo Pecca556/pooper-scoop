@@ -27,7 +27,7 @@ export default function CommercialHero() {
           <div className="rounded-[var(--radius)] flex-1 overflow-hidden aspect-[653/500] relative min-h-[400px] md:min-h-0">
             <img
               src="/images/real-life-images/two-emps-poop-pole.png"
-              alt="doodie duty employees"
+              alt="pooper scoopers employees"
               className="absolute inset-0 rounded-[var(--radius)] w-full h-full object-cover"
             />
           </div>

@@ -49,7 +49,7 @@ export default function Reviews() {
                   }`}
                   style={{ transitionDelay: isInView ? '300ms' : '0ms' }}
                 >
-                  See why our clients love Doodie Duty and our reliable, hassle-free pet waste service!
+                  See why our clients love Pooper Scoopers and our reliable, hassle-free pet waste service!
                 </p>
               </div>
 

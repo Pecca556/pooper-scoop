@@ -37,7 +37,7 @@ export async function POST(request: Request) {
             .join('');
 
         const { data, error } = await resend.emails.send({
-            from: 'Doodie Duty <onboarding@resend.dev>',
+            from: 'Pooper Scoopers <onboarding@resend.dev>',
             to: [process.env.SEND_EMAIL],
             subject: `New Referral from ${referrerName}`,
             html: `

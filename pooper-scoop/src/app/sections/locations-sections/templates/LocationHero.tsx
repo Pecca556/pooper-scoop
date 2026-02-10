@@ -7,7 +7,7 @@ interface LocationHeroProps {
 
 export default function LocationHero({ name }: LocationHeroProps) {
     return (
-        <div className="mx-auto w-full relative z-1">
+        <div className="mx-auto w-full relative z-1 ">
             <div className="flex max-w-[var(--view-width)] flex-col w-full text-center mx-auto gap-[40px]">
                 <img
                     src="/images/real-life-images/females-OC.png"
@@ -18,16 +18,16 @@ export default function LocationHero({ name }: LocationHeroProps) {
                     <h2 className="h2 !text-white">{name} Top Pet Waste Specialist</h2>
                     <p className="p !text-white">
                         Your furry friend brings joy, but their poop? Not so much. Enter
-                        Doodie Duty, {name} premier pet waste service! We
+                        Pooper Scoopers, {name} premier pet waste service! We
                         tackle the dirty work, letting you enjoy a poop-free yard.
                         Reliable, eco-friendly, and hassle-free – we’ve got your backyard!
                     </p>
                 </div>
 
                 <img
-                    src="/images/avif/mascottes/umbrella-shovel.avif"
+                    src="/images/mascottes/umbrella-shovel.png"
                     alt="Promo"
-                    className="w-50 h-auto absolute bottom-[-80px] max-md:hidden"
+                    className="w-50 h-auto absolute bottom-[-92.5px] max-md:hidden"
                 />
 
                 <div className="flex w-full md:-translate-x-10 justify-center mx-auto">

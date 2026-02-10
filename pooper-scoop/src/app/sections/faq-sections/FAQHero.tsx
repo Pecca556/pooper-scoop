@@ -98,7 +98,7 @@ export default function FAQHero() {
 
               {/* Right Accordion Content */}
               <div className="flex-1 rounded-[var(--radius)] py-[50px] px-[40px] bg-white rounded-[var(--radius)] relative">
-                <img src="/images/avif/mascottes/faq.avif" alt="" className="w-[100px] absolute right-4 -top-38"/>
+                <img src="/images/mascottes/faq.png" alt="" className="w-[100px] absolute right-4 -top-34"/>
                 <h3 className="faq-font">{activeCategory}</h3>
                 <Accordion type="single" collapsible className="w-full"> 
                   {faqCategories[activeCategory as keyof typeof faqCategories].map((faq) => (

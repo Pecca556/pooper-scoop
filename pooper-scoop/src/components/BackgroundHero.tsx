@@ -37,7 +37,7 @@ export default function BackgroundHero({
           {showHeroImage && (
             <img 
               src="/images/avif/real-life-images/hero-image-2.avif" 
-              alt="Doodie Duty professional service" 
+              alt="Pooper Scoopers professional service" 
               className="h-[27vw] absolute right-0 bottom-[5%] max-md:relative max-md:h-auto max-md:w-full max-md:-mb-25 max-md:mt-20"
               fetchPriority="high"
             />
@@ -45,7 +45,7 @@ export default function BackgroundHero({
         </div>
       </div>
       {showAbsoluteMascotte && (
-        <img src="/images/avif/mascottes/deodorizer-hero.avif" alt="dog stink" className="absolute bottom-[-10px] h-[150px] left-[15%] max-md:z-1" />
+        <img src="/images/mascottes/deodorizer-hero.png" alt="dog stink" className="absolute bottom-[-16px] h-[150px] left-[15%] max-md:z-1" />
       )}
     </div>
   );

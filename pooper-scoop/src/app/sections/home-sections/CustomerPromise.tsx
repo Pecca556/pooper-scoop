@@ -397,7 +397,7 @@ export default function CustomerPromise() {
                 OUR CUSTOMER PROMISE
               </p>
               <h2 className="h2">
-                Doodie Duty Customer Promise
+                Pooper Scoopers Customer Promise
               </h2>
             </div>
             {/* Cards grid with staggered fade-in animation */}

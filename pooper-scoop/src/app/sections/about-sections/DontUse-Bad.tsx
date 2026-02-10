@@ -16,7 +16,7 @@ export default function DontUseBad() {
                 </p>
                 <h2 className="h2 text-left">Our Vision</h2>
                 <p className="p mb-[14.4px]">
-                  At Doodie Duty, our vision is to revolutionize
+                  At Pooper Scoopers, our vision is to revolutionize
                   the pet waste removal industry by setting the highest
                   standards of service, cleanliness, and customer satisfaction.
                   We strive to create cleaner, healthier environments for pets
@@ -55,7 +55,7 @@ export default function DontUseBad() {
                   removal services that give our clients more time to enjoy
                   their pets and their yards. We are dedicated to
                   professionalism, punctuality, and a friendly customer
-                  experience, ensuring that every interaction with Doodie Duty
+                  experience, ensuring that every interaction with Pooper Scoopers
                   is a positive one.
                 </p>
               </div>

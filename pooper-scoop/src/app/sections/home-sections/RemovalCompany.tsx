@@ -34,7 +34,7 @@ export default function RemovalCompany() {
                 }`}
                 style={{ transitionDelay: isInView ? '0ms' : '0ms' }}
               >
-                Doodie Duty
+                Pooper Scoopers
               </p>
               
               {/* Heading with fade-in */}
@@ -58,7 +58,7 @@ export default function RemovalCompany() {
                 }`}
                 style={{ transitionDelay: isInView ? '300ms' : '0ms' }}
               >
-                Doodie Duty was founded in late 2025 with the goal of improving the lives of dog owners by offering high-quality pet waste removal services throughout Orange County. In just a few short years, Doodie Duty has expanded to serve hundreds of dog owners every month and has created numerous living wage jobs with benefits for dozens of dog-loving team members.
+                Pooper Scoopers was founded in late 2025 with the goal of improving the lives of dog owners by offering high-quality pet waste removal services throughout Orange County. In just a few short years, Pooper Scoopers has expanded to serve hundreds of dog owners every month and has created numerous living wage jobs with benefits for dozens of dog-loving team members.
               </p>
               
               {/* Button with fade-in */}
@@ -80,7 +80,7 @@ export default function RemovalCompany() {
             <div className="overflow-hidden rounded-[var(--radius)] lg:w-1/2 min-h-0 relative md:self-stretch max-md:aspect-[593.758/555]">
               <img 
                 src="/images/real-life-images/girls-on-car.png" 
-                alt="Doodie Duty team members with service vehicle" 
+                alt="Pooper Scoopers team members with service vehicle" 
                 className="w-full h-full object-cover absolute inset-0"
                 fetchPriority="high"
               />
