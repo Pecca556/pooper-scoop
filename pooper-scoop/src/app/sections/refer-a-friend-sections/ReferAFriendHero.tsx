@@ -158,7 +158,7 @@ export default function ReferAFriendHero() {
           <h1 className="h2 !text-white">Refer a Friend</h1>
           <p className="p !text-white">
             Enter contact information for your friends and family with dogs.
-            We'll invite them to join Pooper Scoopers.
+            We'll invite them to join Doodie Duty.
           </p>{" "}
           <p className="subheader !font-[600] !text-white">
             As a Thank You, you'll receive a $25 credit when they sign up online
@@ -166,10 +166,10 @@ export default function ReferAFriendHero() {
           </p>{" "}
           <p className="p !text-white">
             Enter contact information for your friends and family with dogs.
-            We'll invite them to join Pooper Scoopers.
+            We'll invite them to join Doodie Duty.
           </p>
           <img
-            src="/images/mascottes/refer-a-friend.png"
+            src="/images/avif/mascottes/refer-a-friend.avif"
             alt="dogs"
             className="w-[400px]"
           />

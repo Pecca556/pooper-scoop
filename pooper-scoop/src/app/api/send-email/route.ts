@@ -23,7 +23,7 @@ export async function POST(request: Request) {
             );
         }
 
-        let subject = `New Submission from Pooper Scoopers: ${formType || 'Contact Form'}`;
+        let subject = `New Submission from Doodie Duty: ${formType || 'Contact Form'}`;
         let htmlContent = '';
 
         if (formType === 'Signup Quote') {
@@ -99,7 +99,7 @@ export async function POST(request: Request) {
         }
 
         const { data, error } = await resend.emails.send({
-            from: 'Pooper Scoopers <onboarding@resend.dev>',
+            from: 'Doodie Duty <onboarding@resend.dev>',
             to: [process.env.SEND_EMAIL],
             subject: subject,
             html: htmlContent,

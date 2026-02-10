@@ -13,7 +13,7 @@ export default function Vision() {
         <VisionMissionBlock
           subheader="Make a Difference"
           title="Our Vision"
-          text="At Pooper Scoopers, our vision is to revolutionize the pet waste removal industry by setting the highest standards of service, cleanliness, and customer satisfaction. We strive to create cleaner, healthier environments for pets and their owners, enhancing the quality of life in the communities we serve. By continuously innovating and improving our processes, we aim to lead the industry in reliability, professionalism, and eco-friendly practices."
+          text="At Doodie Duty, our vision is to revolutionize the pet waste removal industry by setting the highest standards of service, cleanliness, and customer satisfaction. We strive to create cleaner, healthier environments for pets and their owners, enhancing the quality of life in the communities we serve. By continuously innovating and improving our processes, we aim to lead the industry in reliability, professionalism, and eco-friendly practices."
           imageAlt={"aaaa"}
           textOrderClass="lg:order-1"
           imageOrderClass="lg:order-2"
@@ -22,7 +22,7 @@ export default function Vision() {
         <VisionMissionBlock
           subheader="The Future"
           title="Our Mission"
-          text="Our mission is to lead the pack in making the pet waste removal industry a mainstream service. Many dog owners across the country still don’t know our service even exists, and we are committed to changing that. By raising awareness and showcasing the benefits of professional dog waste removal services, we aim to make Pooper Scoopers a household name for pet owners everywhere."
+          text="Our mission is to lead the pack in making the pet waste removal industry a mainstream service. Many dog owners across the country still don’t know our service even exists, and we are committed to changing that. By raising awareness and showcasing the benefits of professional dog waste removal services, we aim to make Doodie Duty a household name for pet owners everywhere."
           imageAlt={"aaaaa"}
           textOrderClass="lg:order-4"
           imageOrderClass="lg:order-3"

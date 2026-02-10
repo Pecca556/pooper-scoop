@@ -55,7 +55,7 @@ export default function DLUORYOE() {
                     </div>
                     
                       <img
-                        src="/images/mascottes/image2.png"
+                        src="/images/avif/mascottes/image2.avif"
                         alt="happy dog treading on flowerbed"
                         className="absolute h-[160px] right-0 bottom-0 z-0 max-lg:hidden"
                       />

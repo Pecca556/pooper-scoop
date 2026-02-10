@@ -18,7 +18,7 @@ const steps = [
       "https://swoopscoop.com/wp-content/uploads/2024/09/2.-Schedule-Your-Initial-Cleanup.svg",
     imageAlt: "schedule cleanup",
     description:
-      "Once you sign up for services a Pooper Scoopers representative will reach out to schedule your initial cleanup and walk you through the entire process.",
+      "Once you sign up for services a Doodie Duty representative will reach out to schedule your initial cleanup and walk you through the entire process.",
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ const steps = [
       "https://swoopscoop.com/wp-content/uploads/2024/09/5.-Enjoy-a-Poop-Free-Yard.svg",
     imageAlt: "enjoy",
     description:
-      "Sit back and relax! With Pooper Scoopers on the job, you can enjoy your clean, poop-free yard without lifting a finger. We guarantee your satisfaction with every visit.",
+      "Sit back and relax! With Doodie Duty on the job, you can enjoy your clean, poop-free yard without lifting a finger. We guarantee your satisfaction with every visit.",
   },
 ];
 

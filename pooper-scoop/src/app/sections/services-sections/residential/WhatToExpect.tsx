@@ -49,7 +49,7 @@ export default function WhatToExpect() {
               <h2 className="h2 text-center">What to Expect On Your Service Day</h2>
               <p className="p text-center max-w-[var(--max-width-headerpart)] mx-auto">
                 On service day, expect professional and timely service from our
-                dedicated Pooper Scoopers team, ensuring a spotless yard every time.
+                dedicated Doodie Duty team, ensuring a spotless yard every time.
               </p>
             </div>
 
@@ -65,7 +65,7 @@ export default function WhatToExpect() {
                 <div className="group h-full hover:bg-white why-choose-card flex flex-col items-start p-[30px] lg:p-[60px] gap-4 transition-all duration-300 shadow-lg lg:shadow-none hover:shadow-lg rounded-[var(--radius)]">
                   <ArrivalNotificationIcon />
                   <h5 className={`h5 !text-left`}>Arrival Notification</h5>
-                  <p className={`p !text-left`}>Our friendly Pooper Scoopers technicians will send you a 60-minute “on the way” text before your service begins. Customers are not required to be home at the time of service, but we do ask for easy access to cleaning areas and that no aggressive dogs be left out in the yard. This ensures a smooth and efficient service for everyone.</p>
+                  <p className={`p !text-left`}>Our friendly Doodie Duty technicians will send you a 60-minute “on the way” text before your service begins. Customers are not required to be home at the time of service, but we do ask for easy access to cleaning areas and that no aggressive dogs be left out in the yard. This ensures a smooth and efficient service for everyone.</p>
                 </div>
               </div>
               <div
@@ -79,7 +79,7 @@ export default function WhatToExpect() {
                 <div className="group h-full hover:bg-white why-choose-card flex flex-col items-start p-[30px] lg:p-[60px] gap-4 transition-all duration-300 shadow-lg lg:shadow-none hover:shadow-lg rounded-[var(--radius)]">
                   <img src="/images/svg/duster.svg" alt="" />
                   <h5 className={`h5 !text-left`}>Cleaning Your Yard</h5>
-                  <p className={`p !text-left`}>Our friendly Pooper Scoopers technicians will send you a 60-minute “on the way” text before your service begins. Customers are not required to be home at the time of service, but we do ask for easy access to cleaning areas and that no aggressive dogs be left out in the yard. This ensures a smooth and efficient service for everyone.</p>
+                  <p className={`p !text-left`}>Our friendly Doodie Duty technicians will send you a 60-minute “on the way” text before your service begins. Customers are not required to be home at the time of service, but we do ask for easy access to cleaning areas and that no aggressive dogs be left out in the yard. This ensures a smooth and efficient service for everyone.</p>
                 </div>
               </div>
               <div
@@ -93,7 +93,7 @@ export default function WhatToExpect() {
                 <div className="group h-full hover:bg-white why-choose-card flex flex-col items-start p-[30px] lg:p-[60px] gap-4 transition-all duration-300 shadow-lg lg:shadow-none hover:shadow-lg rounded-[var(--radius)]">
                   <img src="/images/svg/gate.svg" alt="" />
                   <h5 className={`h5 !text-left`}>Safety Procedures</h5>
-                  <p className={`p !text-left`}>Our friendly Pooper Scoopers technicians will send you a 60-minute “on the way” text before your service begins. Customers are not required to be home at the time of service, but we do ask for easy access to cleaning areas and that no aggressive dogs be left out in the yard. This ensures a smooth and efficient service for everyone.</p>
+                  <p className={`p !text-left`}>Our friendly Doodie Duty technicians will send you a 60-minute “on the way” text before your service begins. Customers are not required to be home at the time of service, but we do ask for easy access to cleaning areas and that no aggressive dogs be left out in the yard. This ensures a smooth and efficient service for everyone.</p>
                 </div>
               </div>
               <div
@@ -107,7 +107,7 @@ export default function WhatToExpect() {
                 <div className="group h-full hover:bg-white why-choose-card flex flex-col items-start p-[30px] lg:p-[60px] gap-4 transition-all duration-300 shadow-lg lg:shadow-none hover:shadow-lg rounded-[var(--radius)]">
                   <img src="/images/svg/wastething.svg" alt="" />
                   <h5 className={`h5 !text-left`}>Pet Waste Disposal</h5>
-                  <p className={`p !text-left`}>Our friendly Pooper Scoopers technicians will send you a 60-minute “on the way” text before your service begins. Customers are not required to be home at the time of service, but we do ask for easy access to cleaning areas and that no aggressive dogs be left out in the yard. This ensures a smooth and efficient service for everyone.</p>
+                  <p className={`p !text-left`}>Our friendly Doodie Duty technicians will send you a 60-minute “on the way” text before your service begins. Customers are not required to be home at the time of service, but we do ask for easy access to cleaning areas and that no aggressive dogs be left out in the yard. This ensures a smooth and efficient service for everyone.</p>
                 </div>
               </div>
             </div>

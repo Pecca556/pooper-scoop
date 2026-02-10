@@ -23,7 +23,7 @@ const Spoil = () => {
               <div className="flex w-full flex-1 flex-col gap-y-[20px]">
                 <h2 className="h2">Don't Let Dog Poop Spoil the Party!</h2>
                 <p className="p">
-                  We know your furry friend is the light of your life, but picking up after them isn't fun. Enter Pooper Scoopers, your friendly Seattle pet waste service! We specialize in dog waste removal so you can play fetch more and worry about poop less.
+                  We know your furry friend is the light of your life, but picking up after them isn't fun. Enter Doodie Duty, your friendly Seattle pet waste service! We specialize in dog waste removal so you can play fetch more and worry about poop less.
                 </p>
               </div>
             </div>

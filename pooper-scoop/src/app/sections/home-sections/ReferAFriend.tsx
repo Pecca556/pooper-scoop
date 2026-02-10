@@ -24,7 +24,7 @@ export default function ReferAFriend() {
               <h2 className="h2">Refer a Friend</h2>{" "}
               <p className="p mb-[14px] text-center">
                 Friends shouldn't let friends scoop their own pet waste! Refer a
-                friend to Pooper Scoopers, and for every successful referral, you'll
+                friend to Doodie Duty, and for every successful referral, you'll
                 get 20% off your next bill!
               </p>
               <Button className="bg-[var(--brandcolor-red)] hover:bg-black !text-white">

@@ -24,19 +24,19 @@ const faqData = [
     id: "item-4",
     question: "Do you provide pet waste removal services all year round?",
     answer:
-      "Yes! Pooper Scoopers provides pet waste removal services year-round at all of our locations. Even in the winter, we will still show up to provide services. In locations with snow, most of the waste that accumulates is still scoopable.",
+      "Yes! Doodie Duty provides pet waste removal services year-round at all of our locations. Even in the winter, we will still show up to provide services. In locations with snow, most of the waste that accumulates is still scoopable.",
   },
   {
     id: "item-5",
     question: "How do you ensure the safety of my dogs?",
     answer:
-      "The safety of our clients and their dogs is a top priority at Pooper Scoopers. To ensure all dogs are safe, we clean all our equipment and shoes between each yard with a kennel-grade disinfectant to prevent the spread of germs. We also take gate pictures when we are done cleaning so you know your pets won't get out of the yard, and we ensure all our employees are background checked.",
+      "The safety of our clients and their dogs is a top priority at Doodie Duty. To ensure all dogs are safe, we clean all our equipment and shoes between each yard with a kennel-grade disinfectant to prevent the spread of germs. We also take gate pictures when we are done cleaning so you know your pets won't get out of the yard, and we ensure all our employees are background checked.",
   },
   {
     id: "item-6",
     question: "How much does it cost to hire a professional pet waste specialist?",
     answer:
-      "Pooper Scoopers has pet waste service plans starting as low as $60 per month. However, pricing is based on the size of the yard, service frequency, and number of dogs. Most of our clients end up paying between $95 and $135 per month.",
+      "Doodie Duty has pet waste service plans starting as low as $60 per month. However, pricing is based on the size of the yard, service frequency, and number of dogs. Most of our clients end up paying between $95 and $135 per month.",
   },
   {
     id: "item-7",

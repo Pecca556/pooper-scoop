@@ -214,7 +214,7 @@ export default function SearchHero() {
                     />
                     <FieldLabel htmlFor="phone-consent" className="!text-sm">
                       By providing my phone number, I agree to receive calls and
-                      text messages from Pooper Scoopers, including for marketing
+                      text messages from Doodie Duty, including for marketing
                       purposes. Messaging frequency varies and message and data
                       rate may apply. You may reply STOP to opt out of future
                       messages, or reply HELP for more information.

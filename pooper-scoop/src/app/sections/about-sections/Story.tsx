@@ -52,20 +52,20 @@ export default function Story() {
   return (
     <div className="max-w-[var(--view-width)] mx-auto w-full relative z-1  ">
       <h1 className="h2 text-center pb-15 !text-white max-lg:text-left">
-        The Pooper Scoopers Story
+        The Doodie Duty Story
       </h1>
       <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-[20px]">
         <div
               /* left card */ className="bg-white flex flex-col gap-y-6 justify-center items-center shadow-lg rounded-[30px] p-[32px] "
         >
           <p className="p !leading-[32px]">
-          Founded in late 2025 in Anaheim, CA, Pooper Scoopers was created to make life a little bit easier for dog owners by eliminating the most dreaded chore of all—scooping pet waste!
+          Founded in late 2025 in Anaheim, CA, Doodie Duty was created to make life a little bit easier for dog owners by eliminating the most dreaded chore of all—scooping pet waste!
           </p>
           <p className="p !leading-[32px]">
-          Having picked up after their own dogs for years, the founders of Pooper Scoopers recognized that pooper scooping was an overlooked service across the United States. They set out to make dog ownership a bit more enjoyable by solving this messy part of pet care.
+          Having picked up after their own dogs for years, the founders of Doodie Duty recognized that pooper scooping was an overlooked service across the United States. They set out to make dog ownership a bit more enjoyable by solving this messy part of pet care.
           </p>
           <p className="p !leading-[32px]">
-          Today, Pooper Scoopers serves Orange County as a whole, including Anaheim, Cypress, Irvine, Garden Grove, Huntington- and Newport Beach, plus surrounding areas.
+          Today, Doodie Duty serves Orange County as a whole, including Anaheim, Cypress, Irvine, Garden Grove, Huntington- and Newport Beach, plus surrounding areas.
           </p>
         </div>
         <div className="flex flex-col gap-y-[5px]">

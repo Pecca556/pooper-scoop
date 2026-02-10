@@ -52,7 +52,7 @@ export default function FreeConsultation() {
                 style={{ transitionDelay: isInView ? '300ms' : '0ms' }}
               >
                 Contact us for a free site visit and community pet waste
-                management plan from Pooper Scoopers!
+                management plan from Doodie Duty!
               </p>
             </div>
             <form className="flex flex-col gap-4 w-full max-w-2xl bg-white p-6 rounded-lg shadow-md">

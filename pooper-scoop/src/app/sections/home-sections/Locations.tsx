@@ -90,7 +90,7 @@ export default function Locations() {
                 }`}
                 style={{ transitionDelay: isInView ? '0ms' : '0ms' }}
               >
-                pooper scoopers service areas
+                doodie duty service areas
               </p>
               <h2 
                 className={`h2 transition-all duration-700 ${
@@ -110,7 +110,7 @@ export default function Locations() {
                 }`}
                 style={{ transitionDelay: isInView ? '300ms' : '0ms' }}
               >
-                Pooper Scoopers proudly services the majority of the SoCal with locations in Orange County, Garden Grove, Huntington Beach, and Santa Ana.
+                Doodie Duty proudly services the majority of the SoCal with locations in Orange County, Garden Grove, Huntington Beach, and Santa Ana.
               </p>
             </div>
           </div>

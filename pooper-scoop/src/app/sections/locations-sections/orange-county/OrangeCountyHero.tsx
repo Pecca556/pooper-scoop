@@ -15,7 +15,7 @@ export default function OrangeCountyHero() {
           <h2 className="h2">North Idaho’s Top Pet Waste Specialist</h2>
           <p className="p">
             Your furry friend brings joy, but their poop? Not so much. Enter
-            Pooper Scoopers, North Idaho’s premier pet waste service! We
+            Doodie Duty, North Idaho’s premier pet waste service! We
             tackle the dirty work, letting you enjoy a poop-free yard.
             Reliable, eco-friendly, and hassle-free – we’ve got your backyard!
           </p>

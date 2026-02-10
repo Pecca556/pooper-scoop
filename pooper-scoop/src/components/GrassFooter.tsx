@@ -8,7 +8,7 @@ interface GrassFooterProps {
 
 export default function GrassFooter({
   grassImageUrl = "/images/home-page/grass-black.svg",
-  dogImageUrl = "/images/mascottes/grass-divider-dog-shovel.png",
+  dogImageUrl = "/images/avif/mascottes/grass-divider-dog-shovel.avif",
   dogImageAlt = "dog with a shovel",
 }: GrassFooterProps) {
   return (
@@ -17,7 +17,7 @@ export default function GrassFooter({
       style={{ backgroundImage: `url(${grassImageUrl})` }}
     >
       {dogImageUrl && (
-        <div className="dog hidden lg:block absolute bottom-[-18px] ">
+        <div className="dog hidden lg:block absolute bottom-0 ">
           <img src={dogImageUrl} alt={dogImageAlt} className="w-55 h-auto "/>
         </div>
       )}

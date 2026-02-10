@@ -99,13 +99,13 @@ const promiseItems = [
     icon: <img src="/images/svg/paw-emblem.svg" alt="" />,
     title: "Satisfaction Guaranteed",
     description:
-      "At Pooper Scoopers, we guarantee your satisfaction with our SoCal dog waste removal service. If you’re not happy, we’ll make it right—your happiness is our priority.",
+      "At Doodie Duty, we guarantee your satisfaction with our SoCal dog waste removal service. If you’re not happy, we’ll make it right—your happiness is our priority.",
   },
   {
     icon: <img src="/images/svg/clean-shoe.svg" alt="" />,
     title: "Health and Safety Commitment",
     description:
-      "Pooper Scoopers prioritizes health and safety by using sanitary practices and eco-friendly disposal methods, ensuring a clean, safe environment for pets and families.",
+      "Doodie Duty prioritizes health and safety by using sanitary practices and eco-friendly disposal methods, ensuring a clean, safe environment for pets and families.",
   },
 ];
 

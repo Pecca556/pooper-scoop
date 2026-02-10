@@ -42,7 +42,7 @@ export default function HomeBackgroundHero({
           {showHeroImage && (
             <img 
               src="/images/hero.png" 
-              alt="Pooper Scoopers professional pet waste removal service" 
+              alt="Doodie Duty professional pet waste removal service" 
               className="h-[30vw] absolute right-0 bottom-[1%] max-md:relative max-md:h-auto max-md:w-full max-md:-mb-25 max-md:mt-20"
               fetchPriority="high"
             />
