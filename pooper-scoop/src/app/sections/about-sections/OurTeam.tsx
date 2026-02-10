@@ -39,7 +39,7 @@ export default function OurTeam() {
         heading: "our team",
         description: (
           <>
-            Our team at Doodie Duty<sup>®</sup> is committed to providing all
+            Our team at Pooper Scoopers<sup>®</sup> is committed to providing all
             customers with a 5-star white glove experience.
           </>
         ),

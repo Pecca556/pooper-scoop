@@ -9,7 +9,7 @@ const steps = [
       "https://swoopscoop.com/wp-content/uploads/2024/09/1.-Sign-up-for-Services.svg",
     imageAlt: "phone",
     description:
-      "The first step to eliminating your community dog waste issue is to fill out the form on this page and schedule a free consultation. Whether you’re a property manager, or the president of your local HOA, our team at Doodie Duty can help make your community a clean, safe, and enjoyable place to spend time.",
+      "The first step to eliminating your community dog waste issue is to fill out the form on this page and schedule a free consultation. Whether you’re a property manager, or the president of your local HOA, our team at Pooper Scoopers can help make your community a clean, safe, and enjoyable place to spend time.",
   },
   {
     id: 2,

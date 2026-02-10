@@ -18,7 +18,7 @@ export default function LocationHero({ name }: LocationHeroProps) {
                     <h2 className="h2 !text-white">{name} Top Pet Waste Specialist</h2>
                     <p className="p !text-white">
                         Your furry friend brings joy, but their poop? Not so much. Enter
-                        Doodie Duty, {name} premier pet waste service! We
+                        Pooper Scoopers, {name} premier pet waste service! We
                         tackle the dirty work, letting you enjoy a poop-free yard.
                         Reliable, eco-friendly, and hassle-free – we’ve got your backyard!
                     </p>

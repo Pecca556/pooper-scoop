@@ -27,7 +27,7 @@ export default function LocationServiceArea({
                         <div className="flex flex-col gap-[20px] flex-1">
                             <div className="flex flex-col gap-[12px]">
                                 <p className="subheader uppercase">OUR LOCATIONS</p>
-                                <h2 className="h2">Doodie Duty {name} Service Areas</h2>
+                                <h2 className="h2">Pooper Scoopers {name} Service Areas</h2>
                                 <p className="p mt-2">{description}</p>
                                 <p className="p">
                                     Major cities serviced by our dog poop service {name} location include:

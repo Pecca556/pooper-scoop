@@ -752,10 +752,10 @@ export default function WhyChooseSection() {
       eyebrowText="The best in SoCal"
       heading={
         <>
-          Why Choose Doodie Duty?
+          Why Choose Pooper Scoopers?
         </>
       }
-      subheading="When you hire Doodie Duty as your pet waste company, you can be confident you made the right decision with our 100% satisfaction guarantee."
+      subheading="When you hire Pooper Scoopers as your pet waste company, you can be confident you made the right decision with our 100% satisfaction guarantee."
       items={whyChooseItems}
       grassFooterHeight={150}
     />

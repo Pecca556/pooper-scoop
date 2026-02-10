@@ -37,7 +37,7 @@ export default function BackgroundHero({
           {showHeroImage && (
             <img 
               src="/images/avif/real-life-images/hero-image-2.avif" 
-              alt="Doodie Duty professional service" 
+              alt="Pooper Scoopers professional service" 
               className="h-[27vw] absolute right-0 bottom-[5%] max-md:relative max-md:h-auto max-md:w-full max-md:-mb-25 max-md:mt-20"
               fetchPriority="high"
             />
